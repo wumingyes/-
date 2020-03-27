@@ -268,10 +268,10 @@ def main():
 
 
 if __name__ == '__main__':
-    # time_begin = time.perf_counter()
-    # main()
-    # time_end = time.perf_counter()
+    time_begin = time.perf_counter()
+    main()
+    time_end = time.perf_counter()
     # print("程序运行总耗时：{:.2f}秒\n".format(time_end-time_begin))
-    temp_dict = load_from_file(PATH_JSON)
-    temp_dict['20200320191212']={"揽清幽":"+260","zh_ch":"-175","iamok":"-85"}
-    write_to_file(temp_dict)
+    # temp_dict = load_from_file(PATH_JSON)
+    # temp_dict['20200320191212']={"揽清幽":"+260","zh_ch":"-175","iamok":"-85"}
+    # write_to_file(temp_dict)
